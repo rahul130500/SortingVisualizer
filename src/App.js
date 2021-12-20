@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar/NavBar";
 import { useState, useEffect } from "react";
 import { ResetArray } from "./components/NavBar/utils";
 import { AnimSpecs, Glob } from "./components/constant";
-
+import "./tailwind.min.css";
 function App() {
   const [arr, setArr] = useState([]);
   const [size, setSize] = useState(Glob.SIZE);
